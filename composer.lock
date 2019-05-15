@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fdc151cc3ba240b913803d5cbcae45bf",
+    "content-hash": "8bd57e5b6659f17dd8b16bca320c1079",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -3141,26 +3141,26 @@
         },
         {
             "name": "spatie/image-optimizer",
-            "version": "1.1.5",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/image-optimizer.git",
-                "reference": "e62f8b459bee0a880c8976c316e82638a74510b5"
+                "reference": "11f0b270669a55f90093d63ddb5214e0f7c279da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/image-optimizer/zipball/e62f8b459bee0a880c8976c316e82638a74510b5",
-                "reference": "e62f8b459bee0a880c8976c316e82638a74510b5",
+                "url": "https://api.github.com/repos/spatie/image-optimizer/zipball/11f0b270669a55f90093d63ddb5214e0f7c279da",
+                "reference": "11f0b270669a55f90093d63ddb5214e0f7c279da",
                 "shasum": ""
             },
             "require": {
                 "ext-fileinfo": "*",
-                "php": "^7.2",
+                "php": "^7.0",
                 "psr/log": "^1.0",
                 "symfony/process": "^4.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.0",
+                "phpunit/phpunit": "^7.5",
                 "symfony/var-dumper": "^4.2"
             },
             "type": "library",
@@ -3187,7 +3187,7 @@
                 "image-optimizer",
                 "spatie"
             ],
-            "time": "2019-02-15T12:11:38+00:00"
+            "time": "2019-01-14T09:15:47+00:00"
         },
         {
             "name": "spatie/laravel-sitemap",
@@ -4923,6 +4923,34 @@
                 "environment"
             ],
             "time": "2019-03-06T09:39:45+00:00"
+        },
+        {
+            "name": "voyager-themes",
+            "version": "0.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thedevdojo/voyager-themes.git",
+                "reference": "0.15"
+            },
+            "require": {
+                "larapack/hooks": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "hook": {
+                    "providers": [
+                        "VoyagerThemes\\VoyagerThemesServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "VoyagerThemes\\": "src/"
+                }
+            },
+            "notification-url": "https://larapack.io/downloads",
+            "description": "This hook will add support for Voyager front-end themes",
+            "time": "2019-05-15T04:05:11+00:00"
         }
     ],
     "packages-dev": [
