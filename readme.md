@@ -1,4 +1,4 @@
-## Voyager Admin | Voyager Frontend | Voyager Theme
+# Voyager Admin | Voyager Frontend | Voyager Theme
 
 ### References
 
@@ -13,7 +13,7 @@
 - Composer
 - [Laravel Requirements](https://laravel.com/docs/installation)
 
-### 1. Install Laravel + Voyager Admin
+## 1. Install Laravel + Voyager Admin
 
 __1.1 Install Laravel__
 
@@ -67,7 +67,7 @@ __1.4 Install Voyager__
      
         password: password
     
-### 2. Install Voyager Frontend
+## 2. Install Voyager Frontend
 
 __2.1 Require Voyager Frontend__
 
