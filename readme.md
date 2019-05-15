@@ -1,5 +1,6 @@
 ## Voyager Admin | Voyager Frontend | Voyager Theme
 
+### References
 
 - [Voyager Admin](https://docs.laravelvoyager.com/getting-started/installation).
 - [Voyager Frontend](https://github.com/pvtl/voyager-frontend).
@@ -66,7 +67,7 @@ __1.4 Install Voyager__
      
         password: password
     
-###2. Install Voyager Frontend
+### 2. Install Voyager Frontend
 
 __2.1 Require Voyager Frontend__
 
