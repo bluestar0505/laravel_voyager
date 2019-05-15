@@ -1,0 +1,44 @@
+/*
+ * Extra utilities
+ */
+
+// Borders
+.border-top { border-top: 1px solid $light-gray; }
+.border-bottom { border-bottom: 1px solid $light-gray; }
+.border-left { border-left: 1px solid $light-gray; }
+.border-right { border-right: 1px solid $light-gray; }
+
+// Standard Box Shadow
+.box-shadow {
+  box-shadow: $card-shadow;
+}
+
+// Overflow
+.overflow-hidden {
+  overflow: hidden;
+}
+
+// Background Colors
+.background-color-lightgray { background-color: $light-gray }
+.background-color-mediumgray { background-color: $medium-gray }
+.background-color-primary { background-color: $primary-color }
+.background-color-secondary { background-color: $secondary-color }
+
+// Avatar
+.avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    display: inline-block;
+
+    img {
+        display: block;
+        margin: auto;
+        height: auto;
+        max-height: 100%;
+        width: auto;
+        max-width: none;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,1 @@
+@include('voyager-frontend::modules.auth.register')
