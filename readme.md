@@ -6,12 +6,14 @@
 - [Voyager Frontend](https://github.com/thedevdojo/voyager-themes).
 
 ### Prerequisites
+
 - PHP >= 7.1.3
 - Node & NPM
 - Composer
 - [Laravel Requirements](https://laravel.com/docs/installation)
 
 ### 1. Install Laravel + Voyager Admin
+
 __1.1 Install Laravel__
 
     composer create-project --prefer-dist laravel/laravel PROJECT_NAME
