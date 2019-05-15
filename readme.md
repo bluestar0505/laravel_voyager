@@ -88,3 +88,56 @@ __2.4 Installer Voyager Frontend__
 __2.5 Set the Laravel search driver in your .env__
 
     echo "SCOUT_DRIVER=tntsearch" >> .env
+    
+## 3. Install Voyager Theme
+
+__3.1 Install larapack/hooks__
+
+    composer require larapack/hooks
+    
+    config/app.php
+    'providers' => [
+        ...
+        Larapack\Hooks\HooksServiceProvider::class,
+        ...
+    ]
+    
+__3.2 Install voyager-themes hook__
+    
+    php artisan hook:install voyager-themes
+    
+    config/app.php
+    'providers' => [
+        ... 
+        VoyagerThemes\VoyagerThemesServiceProvider::class,
+        ...
+    ],
+
+__3.3 Comment [user/api] route__
+
+    routes/api.php
+    /*Route::middleware('auth:api')->get('/user', function (Request $request) {
+        return $request->user();
+    });*/
+  
+__3.4 Change VoyagerThemesServiceProvider.php file__
+   
+   line 106 in vendor/voyager-themes/src/VoyagerThemesServiceProvider.php 
+    
+    $router->get('themes/options', $namespacePrefix.'ThemesController@index');
+    
+    // $router->get('themes/options', function () {
+    //      return redirect(route('voyager.theme.index'));
+    // });
+   
+__3.5 Change helpers.php file__
+   
+   line 17 in vendor/voyager-themes/src/helpers.php 
+    
+    $dataTypeContent = (object)["id" => 0, $key => $content]; 
+    
+    // $dataTypeContent = (object)[$key => $content];
+    
+__3.6 Publish a config__
+
+    php artisan vendor:publish
