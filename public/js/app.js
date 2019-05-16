@@ -27038,8 +27038,8 @@ window.Echo = new Echo({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /var/www/vhosts/jango.jan-it-solutions.com/httpdocs/test2/resources/assets/js/app.js */"./resources/assets/js/app.js");
-module.exports = __webpack_require__(/*! /var/www/vhosts/jango.jan-it-solutions.com/httpdocs/test2/resources/assets/sass/app.scss */"./resources/assets/sass/app.scss");
+__webpack_require__(/*! /var/www/vhosts/jango.jan-it-solutions.com/httpdocs/testlaravel/resources/assets/js/app.js */"./resources/assets/js/app.js");
+module.exports = __webpack_require__(/*! /var/www/vhosts/jango.jan-it-solutions.com/httpdocs/testlaravel/resources/assets/sass/app.scss */"./resources/assets/sass/app.scss");
 
 
 /***/ })

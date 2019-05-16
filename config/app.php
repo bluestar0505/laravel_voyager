@@ -165,7 +165,6 @@ return [
         /*
          * Package Service Providers...
          */
-
 		Larapack\Hooks\HooksServiceProvider::class,
 		VoyagerThemes\VoyagerThemesServiceProvider::class,
 		
